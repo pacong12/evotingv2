@@ -24,7 +24,7 @@ class UserImport implements ToModel
             // 'created_at' => $row[6],
             // 'updated_at' => $row[7],
             'token' => $row[8],
-            // 'kelas_id' => $row[9],
+            'kelas_id' => $row[9],
             // 'kandidat_id' => $row[10],
         ]);
     }

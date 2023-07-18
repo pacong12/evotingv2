@@ -62,7 +62,7 @@ class PemilihDatatable extends DataTable
     protected function getColumns(): array
     {
         return [
-            Column::make('DT_RowIndex')->title('#')->orderable(false)->searchable(false),
+            Column::make('DT_RowIndex')->title('NO')->orderable(false)->searchable(false),
             Column::make('name')->title(__('field.voter_name')),
             Column::make('email')->title(__('field.voter_nis')),
             Column::make('token')->title(__('field.voter_token')),
