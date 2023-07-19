@@ -33,7 +33,7 @@
 1. **Clone Repository**
 
 ```bash
-git clone https://github.com/pacong12/evoting.git
+git clone https://github.com/pacong12/evotingv2.git
 ```
 
 ```bash
